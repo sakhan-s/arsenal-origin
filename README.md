@@ -1,1 +1,1 @@
-siradzhov-arsenal-origin.netlify.app
+https://siradzhov-arsenal-origin.netlify.app
