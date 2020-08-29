@@ -12,10 +12,17 @@
 <body>
     <header class="header">
         <nav class="navigation_panel">
-            <div class="logo">
-                <a href="#"><img src="assets/logo.png" alt="Logo" width="150px" height="75px"></a>
+            <div class="mobile" id="mobile">
+                <ul class="navigation_mobile" id="navigation_mobile">
+                    <li class="moile__item"><a class="mob__link active" href="#">HOME</a></li>
+                    <li class="moile__item"><a class="mob__link" href="#">ONE</a></li>
+                    <li class="moile__item"><a class="mob__link" href="#">TWO</a></li>
+                </ul>
             </div>
-            <ul class="nav">
+            <div class="logo">
+                <a href="#"><img src="logo.png" alt="Logo" width="150px" height="75px"></a>
+            </div>
+            <ul class="nav" id="fadeshow">
                 <li class="nav__item"><a class="nav__link active" href="#">Home</a></li>
                 <li class="nav__item"><a class="nav__link" href="#">One</a></li>
                 <li class="nav__item"><a class="nav__link" href="#">Two</a></li>
@@ -23,6 +30,7 @@
                 <li class="nav__item"><a class="nav__link" href="#">Four</a></li>
                 <li class="nav__item"><a class="nav__link" href="#">Five</a></li>
             </ul>
+
         </nav>
     </header>
     <main class="main">
@@ -55,5 +63,6 @@
         </div>
     </footer>
 </body>
+
 
 </html>
